@@ -1,0 +1,22 @@
+BEGIN {
+    split(palabras, lista, "|||");
+    for (i in lista) {
+        regex[i] = lista[i];
+        conteo[lista[i]] = 0;
+    }
+}
+{
+    for (i in regex) {
+        while (match($0, regex[i])) {
+            conteo[regex[i]]++;
+            $0 = substr($0, RSTART + RLENGTH);
+        }
+    }
+}
+END {
+    for (e in conteo) {
+        print e ": " conteo[e];
+    }
+}
+ if else
+i in return 0 return 0 return 0

@@ -1,0 +1,11 @@
+[CLI]
+
+g++ -o Ejercicio4_Cliente Ejercicio4_Cliente.cpp
+
+./Ejercicio4_Cliente -n Jugador1
+
+[SV]
+
+g++ -o Ejercicio4_Servidor Ejercicio4_Servidor.cpp
+
+./Ejercicio4_Servidor -a frasesjuego.txt -c 3

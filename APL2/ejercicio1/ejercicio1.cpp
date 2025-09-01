@@ -1,4 +1,4 @@
-/*                       GRUPO 2
+/*                GRUPO 2
  INTEGRANTES
    AGUIRRE, SEBASTIAN HERNAN
    DE LA CRUZ, LEANDRO ARIEL

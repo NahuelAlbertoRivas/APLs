@@ -1,0 +1,4 @@
+Este archivo contiene información.
+return 0 es una frase común en C.
+También tenemos palabras como if, else y funciones como iniciar()    
+Instead Java contains foreach try catch finally
